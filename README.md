@@ -18,6 +18,9 @@ The data was gathered using the filing system's [public API](https://www.fcc.gov
 
 As of May 10th, 2017 at 9:56PM EST, there were 128946 comments gathered.
 
+As of May 15th, 2017 at 6:00PM EST, there were 1584181 comments gathered (this is all of them).
 
+# Oops
+I had to nuke the repository and recreate it because I messed up with GitHub's large file storage system.
 
-
+PowerBI version was merged by [Huntleychris](https://github.com/huntleychris). Sorry Chris, your merge history was lost. 
