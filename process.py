@@ -17,8 +17,8 @@ START_OFFSET = 1375000
 # See API docs: https://www.fcc.gov/ecfs/public-api-docs.html
 # raise Exception("Please edit the file and insert a data.gov API key and then comment this out.")
 parameters = {
-    "api_key": "Fk8mHdyRvWCk3VLlBiElqpPUGCCDWtlbNYVzBBIZ",
-    "q": "",
+    "api_key": "",
+    "q": "\"the Obama Administration imposed on the internet is smothering innovation, damaging the American economy and obstructing job creation. I urge the Federal Communications Commission to end the bureaucratic regulatory\"",
     "proceedings.name": "17-108",
     "sort": "date_received,DESC",
     "limit": STEP,
