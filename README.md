@@ -12,6 +12,18 @@ The data is public record:
 
 > "...under the rules of the Commission, public comments on rulemakings are routinely available to the public--unless confidentiality is requested (47 CFR 0.459)--via either the Commission's electronic comment filing system (ECFS) at http://www.fcc.gov/cgb/ecfs/ or the public Reference Information Center (RIC) at http://www.fcc.gov/cgb/ric.html"
 
+# About the data
+Everything should be pretty self explanatory. 
+
+* Everything is zipped because it's large.
+
+* JSON files are the raw JSON records from the FCC's API.
+
+* CSV files are summary data that I used to produce visualizations.
+
+* Field names are obvious, except for the "suspicious" field -- this is one that I added, which is binary (1 if the hash of the text matches the hash of the spammy message, 0 otherwise).
+
+* May 11th is spammy comments only. May 15th is all extant comments.
 
 # Getting the data
 The data was gathered using the filing system's [public API](https://www.fcc.gov/ecfs/public-api-docs.html). The API requires a key from [data.gov](http://data.gov)
